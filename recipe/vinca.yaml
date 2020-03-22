@@ -1,0 +1,12 @@
+ros_distro: eloquent
+
+# mapping for package keys
+conda_index:
+  - conda-forge.yaml
+
+packages_skip_by_deps:
+
+packages_select_by_deps:
+  - ament
+
+patch_dir: patch
