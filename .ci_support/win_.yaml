@@ -1,9 +1,9 @@
 c_compiler:
 - vs2017
 channel_sources:
-- ros-forge/label/staging,conda-forge,defaults
+- ros-forge/label/eloquent-staging,conda-forge,defaults
 channel_targets:
-- ros-forge staging
+- ros-forge eloquent-staging
 cxx_compiler:
 - vs2017
 pin_run_as_build:
