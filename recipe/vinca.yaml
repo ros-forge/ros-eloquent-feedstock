@@ -7,7 +7,11 @@ conda_index:
 packages_skip_by_deps:
 
 packages_select_by_deps:
+  - ament_lint_common
   - ament_cmake
   - ament_package
+  - ament_index_python
+  - ament_index_cpp
+  - ros_workspace
 
 patch_dir: patch
