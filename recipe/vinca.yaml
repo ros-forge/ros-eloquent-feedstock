@@ -7,6 +7,7 @@ conda_index:
 packages_skip_by_deps:
 
 packages_select_by_deps:
-  - ament
+  - ament_cmake
+  - ament_package
 
 patch_dir: patch
