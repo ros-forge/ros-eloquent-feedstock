@@ -9,14 +9,14 @@ packages_skip_by_deps:
   - fastcdr
 
 packages_select_by_deps:
-  - ament_lint_common
-  - ament_cmake
   - ament_package
-  - ament_index_python
-  - ament_index_cpp
-  - ros_workspace
-  - rmw_fastrtps_dynamic_cpp
-  - rmw_fastrtps_shared_cpp
-  - rmw_fastrtps_cpp
+  # - ament_lint_common
+  # - ament_cmake
+  # - ament_index_python
+  # - ament_index_cpp
+  # - ros_workspace
+  # - rmw_fastrtps_dynamic_cpp
+  # - rmw_fastrtps_shared_cpp
+  # - rmw_fastrtps_cpp
 
 patch_dir: patch
