@@ -240,3 +240,7 @@ python-pycryptodome:
   win64: [pycryptodome]
 python-catkin-pkg-modules:
   win64: [catkin_pkg]
+fastrtps:
+  win64: [fast-rtps]
+fastcdr:
+  win64: [fast-cdr]

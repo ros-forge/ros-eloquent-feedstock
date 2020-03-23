@@ -4,288 +4,221 @@ package:
 
 source:
   - git_url: https://github.com/ros2-gbp/ament_lint-release.git
-    git_rev: release/eloquent/ament_cmake_flake8/0.8.1-1
-    folder: ros-eloquent-ament-cmake-flake8/src/work
+    git_rev: release/eloquent/ament_pep257/0.8.1-1
+    folder: ros-eloquent-ament-pep257/src/work
+  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
+    git_rev: release/eloquent/ament_cmake_target_dependencies/0.8.2-1
+    folder: ros-eloquent-ament-cmake-target-dependencies/src/work
+  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
+    git_rev: release/eloquent/ament_cmake_version/0.8.2-1
+    folder: ros-eloquent-ament-cmake-version/src/work
+  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
+    git_rev: release/eloquent/ament_cmake_test/0.8.2-1
+    folder: ros-eloquent-ament-cmake-test/src/work
+  - git_url: https://github.com/ros2-gbp/rosidl_typesupport_fastrtps-release.git
+    git_rev: release/eloquent/rosidl_typesupport_fastrtps_c/0.8.0-1
+    folder: ros-eloquent-rosidl-typesupport-fastrtps-c/src/work
   - git_url: https://github.com/ros2-gbp/ament_lint-release.git
-    git_rev: release/eloquent/ament_lint_common/0.8.1-1
-    folder: ros-eloquent-ament-lint-common/src/work
+    git_rev: release/eloquent/ament_lint_cmake/0.8.1-1
+    folder: ros-eloquent-ament-lint-cmake/src/work
   - git_url: https://github.com/ros2-gbp/ament_lint-release.git
-    git_rev: release/eloquent/ament_cmake_lint_cmake/0.8.1-1
-    folder: ros-eloquent-ament-cmake-lint-cmake/src/work
+    git_rev: release/eloquent/ament_flake8/0.8.1-1
+    folder: ros-eloquent-ament-flake8/src/work
+  - git_url: https://github.com/ros2-gbp/uncrustify_vendor-release.git
+    git_rev: release/eloquent/uncrustify_vendor/1.3.0-1
+    folder: ros-eloquent-uncrustify-vendor/src/work
   - git_url: https://github.com/ros2-gbp/ament_lint-release.git
     git_rev: release/eloquent/ament_cmake_cppcheck/0.8.1-1
     folder: ros-eloquent-ament-cmake-cppcheck/src/work
   - git_url: https://github.com/ros2-gbp/ament_lint-release.git
-    git_rev: release/eloquent/ament_lint/0.8.1-1
-    folder: ros-eloquent-ament-lint/src/work
-  - git_url: https://github.com/ros2-gbp/ament_index-release.git
-    git_rev: release/eloquent/ament_index_python/0.7.2-1
-    folder: ros-eloquent-ament-index-python/src/work
-  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
-    git_rev: release/eloquent/ament_cmake_pep257/0.8.1-1
-    folder: ros-eloquent-ament-cmake-pep257/src/work
-  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
-    git_rev: release/eloquent/ament_cmake_xmllint/0.8.1-1
-    folder: ros-eloquent-ament-cmake-xmllint/src/work
-  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
-    git_rev: release/eloquent/ament_copyright/0.8.1-1
-    folder: ros-eloquent-ament-copyright/src/work
-  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
-    git_rev: release/eloquent/ament_cmake_export_libraries/0.8.2-1
-    folder: ros-eloquent-ament-cmake-export-libraries/src/work
-  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
-    git_rev: release/eloquent/ament_cmake_test/0.8.2-1
-    folder: ros-eloquent-ament-cmake-test/src/work
-  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
-    git_rev: release/eloquent/ament_cmake_export_definitions/0.8.2-1
-    folder: ros-eloquent-ament-cmake-export-definitions/src/work
-  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
-    git_rev: release/eloquent/ament_cpplint/0.8.1-1
-    folder: ros-eloquent-ament-cpplint/src/work
-  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
-    git_rev: release/eloquent/ament_cmake_core/0.8.2-1
-    folder: ros-eloquent-ament-cmake-core/src/work
-  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
     git_rev: release/eloquent/ament_cmake_uncrustify/0.8.1-1
     folder: ros-eloquent-ament-cmake-uncrustify/src/work
-  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
-    git_rev: release/eloquent/ament_cmake/0.8.2-1
-    folder: ros-eloquent-ament-cmake/src/work
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_cmake_flake8/0.8.1-1
+    folder: ros-eloquent-ament-cmake-flake8/src/work
+  - git_url: https://github.com/ros2-gbp/ament_index-release.git
+    git_rev: release/eloquent/ament_index_cpp/0.7.2-1
+    folder: ros-eloquent-ament-index-cpp/src/work
+  - git_url: https://github.com/ros2-gbp/launch-release.git
+    git_rev: release/eloquent/launch/0.9.6-1
+    folder: ros-eloquent-launch/src/work
+  - git_url: https://github.com/ros2-gbp/osrf_testings_tools_cpp-release.git
+    git_rev: release/eloquent/osrf_testing_tools_cpp/1.2.1-1
+    folder: ros-eloquent-osrf-testing-tools-cpp/src/work
   - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
     git_rev: release/eloquent/ament_cmake_include_directories/0.8.2-1
     folder: ros-eloquent-ament-cmake-include-directories/src/work
-  - git_url: https://github.com/ros2-gbp/uncrustify_vendor-release.git
-    git_rev: release/eloquent/uncrustify_vendor/1.3.0-1
-    folder: ros-eloquent-uncrustify-vendor/src/work
-  - git_url: https://github.com/ros2-gbp/googletest-release.git
-    git_rev: release/eloquent/gtest_vendor/1.8.9000-1
-    folder: ros-eloquent-gtest-vendor/src/work
+  - git_url: https://github.com/ros2-gbp/osrf_pycommon-release.git
+    git_rev: release/eloquent/osrf_pycommon/0.1.9-2
+    folder: ros-eloquent-osrf-pycommon/src/work
+  - git_url: https://github.com/ros2-gbp/rmw_fastrtps-release.git
+    git_rev: release/eloquent/rmw_fastrtps_shared_cpp/0.8.1-1
+    folder: ros-eloquent-rmw-fastrtps-shared-cpp/src/work
+  - git_url: https://github.com/ros2-gbp/ament_index-release.git
+    git_rev: release/eloquent/ament_index_python/0.7.2-1
+    folder: ros-eloquent-ament-index-python/src/work
   - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
     git_rev: release/eloquent/ament_cmake_libraries/0.8.2-1
     folder: ros-eloquent-ament-cmake-libraries/src/work
-  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
-    git_rev: release/eloquent/ament_flake8/0.8.1-1
-    folder: ros-eloquent-ament-flake8/src/work
-  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
-    git_rev: release/eloquent/ament_cmake_export_interfaces/0.8.2-1
-    folder: ros-eloquent-ament-cmake-export-interfaces/src/work
-  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
-    git_rev: release/eloquent/ament_pep257/0.8.1-1
-    folder: ros-eloquent-ament-pep257/src/work
-  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
-    git_rev: release/eloquent/ament_uncrustify/0.8.1-1
-    folder: ros-eloquent-ament-uncrustify/src/work
-  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
-    git_rev: release/eloquent/ament_cmake_export_link_flags/0.8.2-1
-    folder: ros-eloquent-ament-cmake-export-link-flags/src/work
+  - git_url: https://github.com/ros2-gbp/googletest-release.git
+    git_rev: release/eloquent/gtest_vendor/1.8.9000-1
+    folder: ros-eloquent-gtest-vendor/src/work
+  - git_url: https://github.com/ros2-gbp/rosidl-release.git
+    git_rev: release/eloquent/rosidl_generator_cpp/0.8.2-1
+    folder: ros-eloquent-rosidl-generator-cpp/src/work
   - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
     git_rev: release/eloquent/ament_cmake_python/0.8.2-1
     folder: ros-eloquent-ament-cmake-python/src/work
+  - git_url: https://github.com/ros2-gbp/rmw_fastrtps-release.git
+    git_rev: release/eloquent/rmw_fastrtps_cpp/0.8.1-1
+    folder: ros-eloquent-rmw-fastrtps-cpp/src/work
   - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
-    git_rev: release/eloquent/ament_cmake_version/0.8.2-1
-    folder: ros-eloquent-ament-cmake-version/src/work
+    git_rev: release/eloquent/ament_cmake_export_definitions/0.8.2-1
+    folder: ros-eloquent-ament-cmake-export-definitions/src/work
+  - git_url: https://github.com/ros2-gbp/rosidl-release.git
+    git_rev: release/eloquent/rosidl_cmake/0.8.2-1
+    folder: ros-eloquent-rosidl-cmake/src/work
+  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
+    git_rev: release/eloquent/ament_cmake_gtest/0.8.2-1
+    folder: ros-eloquent-ament-cmake-gtest/src/work
   - git_url: https://github.com/ros2-gbp/ament_lint-release.git
-    git_rev: release/eloquent/ament_cppcheck/0.8.1-1
-    folder: ros-eloquent-ament-cppcheck/src/work
+    git_rev: release/eloquent/ament_cmake_cpplint/0.8.1-1
+    folder: ros-eloquent-ament-cmake-cpplint/src/work
+  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
+    git_rev: release/eloquent/ament_cmake_export_interfaces/0.8.2-1
+    folder: ros-eloquent-ament-cmake-export-interfaces/src/work
+  - git_url: https://github.com/ros2-gbp/rcpputils-release.git
+    git_rev: release/eloquent/rcpputils/0.2.1-1
+    folder: ros-eloquent-rcpputils/src/work
+  - git_url: https://github.com/ros2-gbp/ament_cmake_ros-release.git
+    git_rev: release/eloquent/domain_coordinator/0.8.0-1
+    folder: ros-eloquent-domain-coordinator/src/work
+  - git_url: https://github.com/ros2-gbp/rosidl-release.git
+    git_rev: release/eloquent/rosidl_parser/0.8.2-1
+    folder: ros-eloquent-rosidl-parser/src/work
+  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
+    git_rev: release/eloquent/ament_cmake_export_link_flags/0.8.2-1
+    folder: ros-eloquent-ament-cmake-export-link-flags/src/work
+  - git_url: https://github.com/ros2-gbp/launch-release.git
+    git_rev: release/eloquent/launch_testing/0.9.6-1
+    folder: ros-eloquent-launch-testing/src/work
   - git_url: https://github.com/ros2-gbp/ament_lint-release.git
-    git_rev: release/eloquent/ament_lint_cmake/0.8.1-1
-    folder: ros-eloquent-ament-lint-cmake/src/work
+    git_rev: release/eloquent/ament_uncrustify/0.8.1-1
+    folder: ros-eloquent-ament-uncrustify/src/work
+  - git_url: https://github.com/ros2-gbp/googletest-release.git
+    git_rev: release/eloquent/gmock_vendor/1.8.9000-1
+    folder: ros-eloquent-gmock-vendor/src/work
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_cmake_copyright/0.8.1-1
+    folder: ros-eloquent-ament-cmake-copyright/src/work
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_lint_auto/0.8.1-1
+    folder: ros-eloquent-ament-lint-auto/src/work
+  - git_url: https://github.com/ros2-gbp/rosidl_typesupport_fastrtps-release.git
+    git_rev: release/eloquent/rosidl_typesupport_fastrtps_cpp/0.8.0-1
+    folder: ros-eloquent-rosidl-typesupport-fastrtps-cpp/src/work
+  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
+    git_rev: release/eloquent/ament_cmake_gmock/0.8.2-1
+    folder: ros-eloquent-ament-cmake-gmock/src/work
+  - git_url: https://github.com/ros2-gbp/test_interface_files-release.git
+    git_rev: release/eloquent/test_interface_files/0.8.0-1
+    folder: ros-eloquent-test-interface-files/src/work
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_lint_common/0.8.1-1
+    folder: ros-eloquent-ament-lint-common/src/work
   - git_url: https://github.com/ros2-gbp/ros_workspace-release.git
     git_rev: release/eloquent/ros_workspace/0.8.0-1
     folder: ros-eloquent-ros-workspace/src/work
     patches:
       - patch/ros-eloquent-ros-workspace.patch
+  - git_url: https://github.com/ros2-gbp/rosidl-release.git
+    git_rev: release/eloquent/rosidl_adapter/0.8.2-1
+    folder: ros-eloquent-rosidl-adapter/src/work
+  - git_url: https://github.com/ros2-gbp/rosidl-release.git
+    git_rev: release/eloquent/rosidl_typesupport_introspection_cpp/0.8.2-1
+    folder: ros-eloquent-rosidl-typesupport-introspection-cpp/src/work
+  - git_url: https://github.com/ros2-gbp/launch-release.git
+    git_rev: release/eloquent/launch_testing_ament_cmake/0.9.6-1
+    folder: ros-eloquent-launch-testing-ament-cmake/src/work
+  - git_url: https://github.com/ros2-gbp/ament_cmake_ros-release.git
+    git_rev: release/eloquent/ament_cmake_ros/0.8.0-1
+    folder: ros-eloquent-ament-cmake-ros/src/work
+  - git_url: https://github.com/ros2-gbp/rmw-release.git
+    git_rev: release/eloquent/rmw/0.8.1-1
+    folder: ros-eloquent-rmw/src/work
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_cppcheck/0.8.1-1
+    folder: ros-eloquent-ament-cppcheck/src/work
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_cmake_pep257/0.8.1-1
+    folder: ros-eloquent-ament-cmake-pep257/src/work
   - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
-    git_rev: release/eloquent/ament_cmake_target_dependencies/0.8.2-1
-    folder: ros-eloquent-ament-cmake-target-dependencies/src/work
+    git_rev: release/eloquent/ament_cmake_pytest/0.8.2-1
+    folder: ros-eloquent-ament-cmake-pytest/src/work
+  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
+    git_rev: release/eloquent/ament_cmake_export_dependencies/0.8.2-1
+    folder: ros-eloquent-ament-cmake-export-dependencies/src/work
+  - git_url: https://github.com/ros2-gbp/rosidl_typesupport_fastrtps-release.git
+    git_rev: release/eloquent/fastrtps_cmake_module/0.8.0-1
+    folder: ros-eloquent-fastrtps-cmake-module/src/work
   - git_url: https://github.com/ros2-gbp/ament_lint-release.git
-    git_rev: release/eloquent/ament_lint_auto/0.8.1-1
-    folder: ros-eloquent-ament-lint-auto/src/work
+    git_rev: release/eloquent/ament_cmake_xmllint/0.8.1-1
+    folder: ros-eloquent-ament-cmake-xmllint/src/work
+  - git_url: https://github.com/ros2-gbp/rcutils-release.git
+    git_rev: release/eloquent/rcutils/0.8.4-1
+    folder: ros-eloquent-rcutils/src/work
+  - git_url: https://github.com/ros2-gbp/rosidl-release.git
+    git_rev: release/eloquent/rosidl_typesupport_interface/0.8.2-1
+    folder: ros-eloquent-rosidl-typesupport-interface/src/work
   - git_url: https://github.com/ros2-gbp/ament_lint-release.git
-    git_rev: release/eloquent/ament_cmake_cpplint/0.8.1-1
-    folder: ros-eloquent-ament-cmake-cpplint/src/work
-  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
-    git_rev: release/eloquent/ament_cmake_copyright/0.8.1-1
-    folder: ros-eloquent-ament-cmake-copyright/src/work
-  - git_url: https://github.com/ros2-gbp/ament_package-release.git
-    git_rev: release/eloquent/ament_package/0.8.8-1
-    folder: ros-eloquent-ament-package/src/work
+    git_rev: release/eloquent/ament_lint/0.8.1-1
+    folder: ros-eloquent-ament-lint/src/work
+  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
+    git_rev: release/eloquent/ament_cmake_core/0.8.2-1
+    folder: ros-eloquent-ament-cmake-core/src/work
+  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
+    git_rev: release/eloquent/ament_cmake_export_libraries/0.8.2-1
+    folder: ros-eloquent-ament-cmake-export-libraries/src/work
   - git_url: https://github.com/ros2-gbp/ament_lint-release.git
     git_rev: release/eloquent/ament_xmllint/0.8.1-1
     folder: ros-eloquent-ament-xmllint/src/work
   - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
     git_rev: release/eloquent/ament_cmake_export_include_directories/0.8.2-1
     folder: ros-eloquent-ament-cmake-export-include-directories/src/work
+  - git_url: https://github.com/ros2-gbp/rosidl-release.git
+    git_rev: release/eloquent/rosidl_typesupport_introspection_c/0.8.2-1
+    folder: ros-eloquent-rosidl-typesupport-introspection-c/src/work
   - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
-    git_rev: release/eloquent/ament_cmake_gtest/0.8.2-1
-    folder: ros-eloquent-ament-cmake-gtest/src/work
-  - git_url: https://github.com/ros2-gbp/ament_index-release.git
-    git_rev: release/eloquent/ament_index_cpp/0.7.2-1
-    folder: ros-eloquent-ament-index-cpp/src/work
-  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
-    git_rev: release/eloquent/ament_cmake_export_dependencies/0.8.2-1
-    folder: ros-eloquent-ament-cmake-export-dependencies/src/work
+    git_rev: release/eloquent/ament_cmake/0.8.2-1
+    folder: ros-eloquent-ament-cmake/src/work
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_cpplint/0.8.1-1
+    folder: ros-eloquent-ament-cpplint/src/work
+  - git_url: https://github.com/ros2-gbp/rosidl-release.git
+    git_rev: release/eloquent/rosidl_generator_c/0.8.2-1
+    folder: ros-eloquent-rosidl-generator-c/src/work
+  - git_url: https://github.com/ros2-gbp/ament_package-release.git
+    git_rev: release/eloquent/ament_package/0.8.8-1
+    folder: ros-eloquent-ament-package/src/work
+  - git_url: https://github.com/ros2-gbp/python_cmake_module-release.git
+    git_rev: release/eloquent/python_cmake_module/0.8.0-2
+    folder: ros-eloquent-python-cmake-module/src/work
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_copyright/0.8.1-1
+    folder: ros-eloquent-ament-copyright/src/work
+  - git_url: https://github.com/ros2-gbp/rmw_fastrtps-release.git
+    git_rev: release/eloquent/rmw_fastrtps_dynamic_cpp/0.8.1-1
+    folder: ros-eloquent-rmw-fastrtps-dynamic-cpp/src/work
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_cmake_lint_cmake/0.8.1-1
+    folder: ros-eloquent-ament-cmake-lint-cmake/src/work
 
 build:
   number: 0
   skip: true  # [not win64]
 
 outputs:
-  - name: ros-eloquent-ament-cmake-flake8
-    version: 0.8.1
-    requirements:
-      build:
-        - "{{ compiler('cxx') }}"
-        - "{{ compiler('c') }}"
-        - ninja
-        - cmake
-      host:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-copyright
-        - ros-eloquent-ament-cmake-core
-        - ros-eloquent-ament-cmake-lint-cmake
-        - ros-eloquent-ament-cmake-test
-        - ros-eloquent-ament-flake8
-      run:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-test
-        - ros-eloquent-ament-flake8
-    script: bld_ament_cmake.bat
-  - name: ros-eloquent-ament-lint-common
-    version: 0.8.1
-    requirements:
-      build:
-        - "{{ compiler('cxx') }}"
-        - "{{ compiler('c') }}"
-        - ninja
-        - cmake
-      host:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-core
-        - ros-eloquent-ament-cmake-export-dependencies
-      run:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-copyright
-        - ros-eloquent-ament-cmake-core
-        - ros-eloquent-ament-cmake-cppcheck
-        - ros-eloquent-ament-cmake-cpplint
-        - ros-eloquent-ament-cmake-flake8
-        - ros-eloquent-ament-cmake-lint-cmake
-        - ros-eloquent-ament-cmake-pep257
-        - ros-eloquent-ament-cmake-uncrustify
-        - ros-eloquent-ament-cmake-xmllint
-    script: bld_ament_cmake.bat
-  - name: ros-eloquent-ament-cmake-lint-cmake
-    version: 0.8.1
-    requirements:
-      build:
-        - "{{ compiler('cxx') }}"
-        - "{{ compiler('c') }}"
-        - ninja
-        - cmake
-      host:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-core
-        - ros-eloquent-ament-cmake-test
-        - ros-eloquent-ament-lint-cmake
-      run:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-test
-        - ros-eloquent-ament-lint-cmake
-    script: bld_ament_cmake.bat
-  - name: ros-eloquent-ament-cmake-cppcheck
-    version: 0.8.1
-    requirements:
-      build:
-        - "{{ compiler('cxx') }}"
-        - "{{ compiler('c') }}"
-        - ninja
-        - cmake
-      host:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-copyright
-        - ros-eloquent-ament-cmake-core
-        - ros-eloquent-ament-cmake-lint-cmake
-        - ros-eloquent-ament-cmake-test
-        - ros-eloquent-ament-cppcheck
-      run:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-core
-        - ros-eloquent-ament-cmake-test
-        - ros-eloquent-ament-cppcheck
-    script: bld_ament_cmake.bat
-  - name: ros-eloquent-ament-lint
-    version: 0.8.1
-    requirements:
-      build:
-        - "{{ compiler('cxx') }}"
-        - "{{ compiler('c') }}"
-        - ninja
-        - cmake
-      host:
-        - python {{ python }}
-        - setuptools
-      run:
-        - python {{ python }}
-    script: bld_ament_python.bat
-  - name: ros-eloquent-ament-index-python
-    version: 0.7.2
-    requirements:
-      build:
-        - "{{ compiler('cxx') }}"
-        - "{{ compiler('c') }}"
-        - ninja
-        - cmake
-      host:
-        - pytest
-        - python {{ python }}
-        - ros-eloquent-ament-flake8
-        - ros-eloquent-ament-pep257
-        - setuptools
-      run:
-        - python {{ python }}
-    script: bld_ament_python.bat
-  - name: ros-eloquent-ament-cmake-pep257
-    version: 0.8.1
-    requirements:
-      build:
-        - "{{ compiler('cxx') }}"
-        - "{{ compiler('c') }}"
-        - ninja
-        - cmake
-      host:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-copyright
-        - ros-eloquent-ament-cmake-core
-        - ros-eloquent-ament-cmake-lint-cmake
-        - ros-eloquent-ament-cmake-test
-        - ros-eloquent-ament-pep257
-      run:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-test
-        - ros-eloquent-ament-pep257
-    script: bld_ament_cmake.bat
-  - name: ros-eloquent-ament-cmake-xmllint
-    version: 0.8.1
-    requirements:
-      build:
-        - "{{ compiler('cxx') }}"
-        - "{{ compiler('c') }}"
-        - ninja
-        - cmake
-      host:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-copyright
-        - ros-eloquent-ament-cmake-core
-        - ros-eloquent-ament-cmake-lint-cmake
-        - ros-eloquent-ament-cmake-test
-        - ros-eloquent-ament-xmllint
-      run:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-test
-        - ros-eloquent-ament-xmllint
-    script: bld_ament_cmake.bat
-  - name: ros-eloquent-ament-copyright
+  - name: ros-eloquent-ament-pep257
     version: 0.8.1
     requirements:
       build:
@@ -297,13 +230,32 @@ outputs:
         - pytest
         - python {{ python }}
         - ros-eloquent-ament-flake8
-        - ros-eloquent-ament-pep257
         - setuptools
       run:
+        - pydocstyle
         - python {{ python }}
         - ros-eloquent-ament-lint
     script: bld_ament_python.bat
-  - name: ros-eloquent-ament-cmake-export-libraries
+  - name: ros-eloquent-ament-cmake-target-dependencies
+    version: 0.8.2
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-core
+        - ros-eloquent-ament-cmake-include-directories
+        - ros-eloquent-ament-cmake-libraries
+      run:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-core
+        - ros-eloquent-ament-cmake-include-directories
+        - ros-eloquent-ament-cmake-libraries
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-ament-cmake-version
     version: 0.8.2
     requirements:
       build:
@@ -334,6 +286,388 @@ outputs:
         - python {{ python }}
         - ros-eloquent-ament-cmake-core
     script: bld_ament_cmake.bat
+  - name: ros-eloquent-rosidl-typesupport-fastrtps-c
+    version: 0.8.0
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - fast-cdr
+        - fast-rtps
+        - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-ament-lint-auto
+        - ros-eloquent-ament-lint-common
+        - ros-eloquent-fastrtps-cmake-module
+        - ros-eloquent-rmw
+        - ros-eloquent-rosidl-cmake
+        - ros-eloquent-rosidl-generator-c
+        - ros-eloquent-rosidl-typesupport-fastrtps-cpp
+      run:
+        - fast-cdr
+        - fast-rtps
+        - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-fastrtps-cmake-module
+        - ros-eloquent-rmw
+        - ros-eloquent-rosidl-cmake
+        - ros-eloquent-rosidl-generator-c
+        - ros-eloquent-rosidl-parser
+        - ros-eloquent-rosidl-typesupport-fastrtps-cpp
+        - ros-eloquent-rosidl-typesupport-interface
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-ament-lint-cmake
+    version: 0.8.1
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - pytest
+        - python {{ python }}
+        - ros-eloquent-ament-copyright
+        - ros-eloquent-ament-flake8
+        - ros-eloquent-ament-pep257
+        - setuptools
+      run:
+        - python {{ python }}
+    script: bld_ament_python.bat
+  - name: ros-eloquent-ament-flake8
+    version: 0.8.1
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - setuptools
+      run:
+        - flake8
+        - python {{ python }}
+        - ros-eloquent-ament-lint
+    script: bld_ament_python.bat
+  - name: ros-eloquent-uncrustify-vendor
+    version: 1.3.0
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - uncrustify
+      run:
+        - python {{ python }}
+        - uncrustify
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-ament-cmake-cppcheck
+    version: 0.8.1
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-copyright
+        - ros-eloquent-ament-cmake-core
+        - ros-eloquent-ament-cmake-lint-cmake
+        - ros-eloquent-ament-cmake-test
+        - ros-eloquent-ament-cppcheck
+      run:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-core
+        - ros-eloquent-ament-cmake-test
+        - ros-eloquent-ament-cppcheck
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-ament-cmake-uncrustify
+    version: 0.8.1
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-copyright
+        - ros-eloquent-ament-cmake-core
+        - ros-eloquent-ament-cmake-lint-cmake
+        - ros-eloquent-ament-cmake-test
+        - ros-eloquent-ament-uncrustify
+      run:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-test
+        - ros-eloquent-ament-uncrustify
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-ament-cmake-flake8
+    version: 0.8.1
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-copyright
+        - ros-eloquent-ament-cmake-core
+        - ros-eloquent-ament-cmake-lint-cmake
+        - ros-eloquent-ament-cmake-test
+        - ros-eloquent-ament-flake8
+      run:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-test
+        - ros-eloquent-ament-flake8
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-ament-index-cpp
+    version: 0.7.2
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-ament-cmake-gtest
+        - ros-eloquent-ament-lint-auto
+        - ros-eloquent-ament-lint-common
+      run:
+        - python {{ python }}
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-launch
+    version: 0.9.6
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - pytest
+        - python {{ python }}
+        - ros-eloquent-ament-copyright
+        - ros-eloquent-ament-flake8
+        - ros-eloquent-ament-pep257
+        - ros-eloquent-osrf-pycommon
+        - setuptools
+      run:
+        - lark-parser
+        - python {{ python }}
+        - ros-eloquent-ament-index-python
+        - ros-eloquent-osrf-pycommon
+    script: bld_ament_python.bat
+  - name: ros-eloquent-osrf-testing-tools-cpp
+    version: 1.2.1
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - cmake
+        - python {{ python }}
+      run:
+        - python {{ python }}
+    script: bld_catkin.bat
+  - name: ros-eloquent-ament-cmake-include-directories
+    version: 0.8.2
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-core
+      run:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-core
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-osrf-pycommon
+    version: 0.1.9
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - setuptools
+      run:
+        - mock
+        - python {{ python }}
+    script: bld_ament_python.bat
+  - name: ros-eloquent-rmw-fastrtps-shared-cpp
+    version: 0.8.1
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - fast-cdr
+        - fast-rtps
+        - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-ament-cmake-ros
+        - ros-eloquent-ament-lint-auto
+        - ros-eloquent-ament-lint-common
+        - ros-eloquent-fastrtps-cmake-module
+        - ros-eloquent-rcpputils
+        - ros-eloquent-rcutils
+        - ros-eloquent-rmw
+      run:
+        - fast-cdr
+        - fast-rtps
+        - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-fastrtps-cmake-module
+        - ros-eloquent-rcpputils
+        - ros-eloquent-rcutils
+        - ros-eloquent-rmw
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-ament-index-python
+    version: 0.7.2
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - pytest
+        - python {{ python }}
+        - ros-eloquent-ament-flake8
+        - ros-eloquent-ament-pep257
+        - setuptools
+      run:
+        - python {{ python }}
+    script: bld_ament_python.bat
+  - name: ros-eloquent-ament-cmake-libraries
+    version: 0.8.2
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-core
+      run:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-core
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-gtest-vendor
+    version: 1.8.9000
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - cmake
+        - python {{ python }}
+      run:
+        - python {{ python }}
+    script: bld_catkin.bat
+  - name: ros-eloquent-rosidl-generator-cpp
+    version: 0.8.2
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-ament-cmake-gtest
+        - ros-eloquent-ament-lint-auto
+        - ros-eloquent-ament-lint-common
+        - ros-eloquent-rosidl-cmake
+        - ros-eloquent-rosidl-generator-c
+        - ros-eloquent-test-interface-files
+      run:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-rosidl-cmake
+        - ros-eloquent-rosidl-generator-c
+        - ros-eloquent-rosidl-parser
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-ament-cmake-python
+    version: 0.8.2
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-core
+      run:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-core
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-rmw-fastrtps-cpp
+    version: 0.8.1
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - fast-cdr
+        - fast-rtps
+        - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-ament-cmake-ros
+        - ros-eloquent-ament-lint-auto
+        - ros-eloquent-ament-lint-common
+        - ros-eloquent-fastrtps-cmake-module
+        - ros-eloquent-rcutils
+        - ros-eloquent-rmw
+        - ros-eloquent-rmw-fastrtps-shared-cpp
+        - ros-eloquent-rosidl-cmake
+        - ros-eloquent-rosidl-generator-c
+        - ros-eloquent-rosidl-generator-cpp
+        - ros-eloquent-rosidl-typesupport-fastrtps-c
+        - ros-eloquent-rosidl-typesupport-fastrtps-cpp
+      run:
+        - fast-cdr
+        - fast-rtps
+        - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-fastrtps-cmake-module
+        - ros-eloquent-rcutils
+        - ros-eloquent-rmw
+        - ros-eloquent-rmw-fastrtps-shared-cpp
+        - ros-eloquent-rosidl-cmake
+        - ros-eloquent-rosidl-generator-c
+        - ros-eloquent-rosidl-generator-cpp
+        - ros-eloquent-rosidl-typesupport-fastrtps-c
+        - ros-eloquent-rosidl-typesupport-fastrtps-cpp
+    script: bld_ament_cmake.bat
   - name: ros-eloquent-ament-cmake-export-definitions
     version: 0.8.2
     requirements:
@@ -349,8 +683,106 @@ outputs:
         - python {{ python }}
         - ros-eloquent-ament-cmake-core
     script: bld_ament_cmake.bat
-  - name: ros-eloquent-ament-cpplint
+  - name: ros-eloquent-rosidl-cmake
+    version: 0.8.2
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - empy
+        - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-ament-cmake-python
+        - ros-eloquent-ament-lint-auto
+        - ros-eloquent-ament-lint-common
+      run:
+        - empy
+        - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-rosidl-adapter
+        - ros-eloquent-rosidl-parser
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-ament-cmake-gtest
+    version: 0.8.2
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - gtest
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-core
+        - ros-eloquent-ament-cmake-test
+        - ros-eloquent-gtest-vendor
+      run:
+        - gtest
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-test
+        - ros-eloquent-gtest-vendor
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-ament-cmake-cpplint
     version: 0.8.1
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-copyright
+        - ros-eloquent-ament-cmake-core
+        - ros-eloquent-ament-cmake-lint-cmake
+        - ros-eloquent-ament-cmake-test
+        - ros-eloquent-ament-cpplint
+      run:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-test
+        - ros-eloquent-ament-cpplint
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-ament-cmake-export-interfaces
+    version: 0.8.2
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-core
+        - ros-eloquent-ament-cmake-export-libraries
+      run:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-core
+        - ros-eloquent-ament-cmake-export-libraries
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-rcpputils
+    version: 0.2.1
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-ament-cmake-gtest
+        - ros-eloquent-ament-cmake-ros
+        - ros-eloquent-ament-lint-auto
+        - ros-eloquent-ament-lint-common
+        - ros-eloquent-rcutils
+      run:
+        - python {{ python }}
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-domain-coordinator
+    version: 0.8.0
     requirements:
       build:
         - "{{ compiler('cxx') }}"
@@ -363,6 +795,513 @@ outputs:
         - ros-eloquent-ament-copyright
         - ros-eloquent-ament-flake8
         - ros-eloquent-ament-pep257
+        - setuptools
+      run:
+        - python {{ python }}
+    script: bld_ament_python.bat
+  - name: ros-eloquent-rosidl-parser
+    version: 0.8.2
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - pytest
+        - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-ament-cmake-pytest
+        - ros-eloquent-ament-lint-auto
+        - ros-eloquent-ament-lint-common
+      run:
+        - lark-parser
+        - python {{ python }}
+        - ros-eloquent-rosidl-adapter
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-ament-cmake-export-link-flags
+    version: 0.8.2
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-core
+      run:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-core
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-launch-testing
+    version: 0.9.6
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - mock
+        - pytest
+        - python {{ python }}
+        - ros-eloquent-ament-copyright
+        - ros-eloquent-ament-flake8
+        - ros-eloquent-ament-pep257
+        - ros-eloquent-launch
+        - setuptools
+      run:
+        - python {{ python }}
+        - ros-eloquent-ament-index-python
+        - ros-eloquent-launch
+        - ros-eloquent-osrf-pycommon
+    script: bld_ament_python.bat
+  - name: ros-eloquent-ament-uncrustify
+    version: 0.8.1
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - setuptools
+      run:
+        - python {{ python }}
+        - ros-eloquent-uncrustify-vendor
+    script: bld_ament_python.bat
+  - name: ros-eloquent-gmock-vendor
+    version: 1.8.9000
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - cmake
+        - python {{ python }}
+        - ros-eloquent-gtest-vendor
+      run:
+        - python {{ python }}
+        - ros-eloquent-gtest-vendor
+    script: bld_catkin.bat
+  - name: ros-eloquent-ament-cmake-copyright
+    version: 0.8.1
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-core
+        - ros-eloquent-ament-cmake-lint-cmake
+        - ros-eloquent-ament-cmake-test
+        - ros-eloquent-ament-copyright
+      run:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-test
+        - ros-eloquent-ament-copyright
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-ament-lint-auto
+    version: 0.8.1
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-core
+        - ros-eloquent-ament-cmake-test
+      run:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-core
+        - ros-eloquent-ament-cmake-test
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-rosidl-typesupport-fastrtps-cpp
+    version: 0.8.0
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - fast-cdr
+        - fast-rtps
+        - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-ament-lint-auto
+        - ros-eloquent-ament-lint-common
+        - ros-eloquent-fastrtps-cmake-module
+        - ros-eloquent-rmw
+        - ros-eloquent-rosidl-cmake
+        - ros-eloquent-rosidl-generator-c
+        - ros-eloquent-rosidl-generator-cpp
+      run:
+        - fast-cdr
+        - fast-rtps
+        - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-fastrtps-cmake-module
+        - ros-eloquent-rmw
+        - ros-eloquent-rosidl-cmake
+        - ros-eloquent-rosidl-generator-c
+        - ros-eloquent-rosidl-generator-cpp
+        - ros-eloquent-rosidl-parser
+        - ros-eloquent-rosidl-typesupport-interface
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-ament-cmake-gmock
+    version: 0.8.2
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - gmock
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-core
+        - ros-eloquent-ament-cmake-gtest
+        - ros-eloquent-ament-cmake-test
+        - ros-eloquent-gmock-vendor
+      run:
+        - gmock
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-gtest
+        - ros-eloquent-ament-cmake-test
+        - ros-eloquent-gmock-vendor
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-test-interface-files
+    version: 0.8.0
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-core
+      run:
+        - python {{ python }}
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-ament-lint-common
+    version: 0.8.1
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-core
+        - ros-eloquent-ament-cmake-export-dependencies
+      run:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-copyright
+        - ros-eloquent-ament-cmake-core
+        - ros-eloquent-ament-cmake-cppcheck
+        - ros-eloquent-ament-cmake-cpplint
+        - ros-eloquent-ament-cmake-flake8
+        - ros-eloquent-ament-cmake-lint-cmake
+        - ros-eloquent-ament-cmake-pep257
+        - ros-eloquent-ament-cmake-uncrustify
+        - ros-eloquent-ament-cmake-xmllint
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-ros-workspace
+    version: 0.8.0
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - cmake
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-core
+        - ros-eloquent-ament-package
+      run:
+        - python {{ python }}
+    script: bld_catkin.bat
+  - name: ros-eloquent-rosidl-adapter
+    version: 0.8.2
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-ament-cmake-pytest
+        - ros-eloquent-ament-lint-auto
+        - ros-eloquent-ament-lint-common
+      run:
+        - empy
+        - python {{ python }}
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-rosidl-typesupport-introspection-cpp
+    version: 0.8.2
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-ament-cmake-ros
+        - ros-eloquent-ament-lint-auto
+        - ros-eloquent-ament-lint-common
+        - ros-eloquent-rosidl-cmake
+        - ros-eloquent-rosidl-typesupport-introspection-c
+      run:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-rosidl-cmake
+        - ros-eloquent-rosidl-generator-c
+        - ros-eloquent-rosidl-generator-cpp
+        - ros-eloquent-rosidl-parser
+        - ros-eloquent-rosidl-typesupport-interface
+        - ros-eloquent-rosidl-typesupport-introspection-c
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-launch-testing-ament-cmake
+    version: 0.9.6
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-ament-cmake-copyright
+        - ros-eloquent-ament-cmake-test
+        - ros-eloquent-launch-testing
+        - ros-eloquent-python-cmake-module
+      run:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-test
+        - ros-eloquent-launch-testing
+        - ros-eloquent-python-cmake-module
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-ament-cmake-ros
+    version: 0.8.0
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-ament-cmake-gmock
+        - ros-eloquent-ament-cmake-gtest
+        - ros-eloquent-ament-cmake-pytest
+        - ros-eloquent-ament-lint-auto
+        - ros-eloquent-ament-lint-common
+        - ros-eloquent-domain-coordinator
+      run:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-ament-cmake-gmock
+        - ros-eloquent-ament-cmake-gtest
+        - ros-eloquent-ament-cmake-pytest
+        - ros-eloquent-domain-coordinator
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-rmw
+    version: 0.8.1
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-gmock
+        - ros-eloquent-ament-cmake-ros
+        - ros-eloquent-ament-cmake-version
+        - ros-eloquent-ament-lint-auto
+        - ros-eloquent-ament-lint-common
+        - ros-eloquent-rcutils
+        - ros-eloquent-rosidl-generator-c
+      run:
+        - python {{ python }}
+        - ros-eloquent-rcutils
+        - ros-eloquent-rosidl-generator-c
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-ament-cppcheck
+    version: 0.8.1
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - setuptools
+      run:
+        - cppcheck
+        - python {{ python }}
+    script: bld_ament_python.bat
+  - name: ros-eloquent-ament-cmake-pep257
+    version: 0.8.1
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-copyright
+        - ros-eloquent-ament-cmake-core
+        - ros-eloquent-ament-cmake-lint-cmake
+        - ros-eloquent-ament-cmake-test
+        - ros-eloquent-ament-pep257
+      run:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-test
+        - ros-eloquent-ament-pep257
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-ament-cmake-pytest
+    version: 0.8.2
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - pytest
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-core
+        - ros-eloquent-ament-cmake-test
+      run:
+        - pytest
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-core
+        - ros-eloquent-ament-cmake-test
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-ament-cmake-export-dependencies
+    version: 0.8.2
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-core
+        - ros-eloquent-ament-cmake-libraries
+      run:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-core
+        - ros-eloquent-ament-cmake-libraries
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-fastrtps-cmake-module
+    version: 0.8.0
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-ament-lint-auto
+        - ros-eloquent-ament-lint-common
+      run:
+        - python {{ python }}
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-ament-cmake-xmllint
+    version: 0.8.1
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-copyright
+        - ros-eloquent-ament-cmake-core
+        - ros-eloquent-ament-cmake-lint-cmake
+        - ros-eloquent-ament-cmake-test
+        - ros-eloquent-ament-xmllint
+      run:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-test
+        - ros-eloquent-ament-xmllint
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-rcutils
+    version: 0.8.4
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - empy
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-gmock
+        - ros-eloquent-ament-cmake-gtest
+        - ros-eloquent-ament-cmake-pytest
+        - ros-eloquent-ament-cmake-ros
+        - ros-eloquent-ament-lint-auto
+        - ros-eloquent-ament-lint-common
+        - ros-eloquent-launch
+        - ros-eloquent-launch-testing
+        - ros-eloquent-launch-testing-ament-cmake
+        - ros-eloquent-osrf-testing-tools-cpp
+      run:
+        - python {{ python }}
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-rosidl-typesupport-interface
+    version: 0.8.2
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-ament-lint-auto
+        - ros-eloquent-ament-lint-common
+      run:
+        - python {{ python }}
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-ament-lint
+    version: 0.8.1
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
         - setuptools
       run:
         - python {{ python }}
@@ -386,8 +1325,8 @@ outputs:
         - python {{ python }}
         - ros-eloquent-ament-package
     script: bld_ament_cmake.bat
-  - name: ros-eloquent-ament-cmake-uncrustify
-    version: 0.8.1
+  - name: ros-eloquent-ament-cmake-export-libraries
+    version: 0.8.2
     requirements:
       build:
         - "{{ compiler('cxx') }}"
@@ -396,15 +1335,67 @@ outputs:
         - cmake
       host:
         - python {{ python }}
-        - ros-eloquent-ament-cmake-copyright
         - ros-eloquent-ament-cmake-core
-        - ros-eloquent-ament-cmake-lint-cmake
-        - ros-eloquent-ament-cmake-test
-        - ros-eloquent-ament-uncrustify
       run:
         - python {{ python }}
-        - ros-eloquent-ament-cmake-test
-        - ros-eloquent-ament-uncrustify
+        - ros-eloquent-ament-cmake-core
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-ament-xmllint
+    version: 0.8.1
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - pytest
+        - python {{ python }}
+        - ros-eloquent-ament-copyright
+        - ros-eloquent-ament-flake8
+        - ros-eloquent-ament-pep257
+        - setuptools
+      run:
+        - libxml2
+        - python {{ python }}
+        - ros-eloquent-ament-lint
+    script: bld_ament_python.bat
+  - name: ros-eloquent-ament-cmake-export-include-directories
+    version: 0.8.2
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-core
+      run:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake-core
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-rosidl-typesupport-introspection-c
+    version: 0.8.2
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-ament-cmake-ros
+        - ros-eloquent-ament-lint-auto
+        - ros-eloquent-ament-lint-common
+        - ros-eloquent-rosidl-cmake
+      run:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-rosidl-cmake
+        - ros-eloquent-rosidl-generator-c
+        - ros-eloquent-rosidl-parser
     script: bld_ament_cmake.bat
   - name: ros-eloquent-ament-cmake
     version: 0.8.2
@@ -445,193 +1436,7 @@ outputs:
         - ros-eloquent-ament-cmake-test
         - ros-eloquent-ament-cmake-version
     script: bld_ament_cmake.bat
-  - name: ros-eloquent-ament-cmake-include-directories
-    version: 0.8.2
-    requirements:
-      build:
-        - "{{ compiler('cxx') }}"
-        - "{{ compiler('c') }}"
-        - ninja
-        - cmake
-      host:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-core
-      run:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-core
-    script: bld_ament_cmake.bat
-  - name: ros-eloquent-uncrustify-vendor
-    version: 1.3.0
-    requirements:
-      build:
-        - "{{ compiler('cxx') }}"
-        - "{{ compiler('c') }}"
-        - ninja
-        - cmake
-      host:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake
-        - uncrustify
-      run:
-        - python {{ python }}
-        - uncrustify
-    script: bld_ament_cmake.bat
-  - name: ros-eloquent-gtest-vendor
-    version: 1.8.9000
-    requirements:
-      build:
-        - "{{ compiler('cxx') }}"
-        - "{{ compiler('c') }}"
-        - ninja
-        - cmake
-      host:
-        - cmake
-        - python {{ python }}
-      run:
-        - python {{ python }}
-    script: bld_catkin.bat
-  - name: ros-eloquent-ament-cmake-libraries
-    version: 0.8.2
-    requirements:
-      build:
-        - "{{ compiler('cxx') }}"
-        - "{{ compiler('c') }}"
-        - ninja
-        - cmake
-      host:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-core
-      run:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-core
-    script: bld_ament_cmake.bat
-  - name: ros-eloquent-ament-flake8
-    version: 0.8.1
-    requirements:
-      build:
-        - "{{ compiler('cxx') }}"
-        - "{{ compiler('c') }}"
-        - ninja
-        - cmake
-      host:
-        - python {{ python }}
-        - setuptools
-      run:
-        - flake8
-        - python {{ python }}
-        - ros-eloquent-ament-lint
-    script: bld_ament_python.bat
-  - name: ros-eloquent-ament-cmake-export-interfaces
-    version: 0.8.2
-    requirements:
-      build:
-        - "{{ compiler('cxx') }}"
-        - "{{ compiler('c') }}"
-        - ninja
-        - cmake
-      host:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-core
-        - ros-eloquent-ament-cmake-export-libraries
-      run:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-core
-        - ros-eloquent-ament-cmake-export-libraries
-    script: bld_ament_cmake.bat
-  - name: ros-eloquent-ament-pep257
-    version: 0.8.1
-    requirements:
-      build:
-        - "{{ compiler('cxx') }}"
-        - "{{ compiler('c') }}"
-        - ninja
-        - cmake
-      host:
-        - pytest
-        - python {{ python }}
-        - ros-eloquent-ament-flake8
-        - setuptools
-      run:
-        - pydocstyle
-        - python {{ python }}
-        - ros-eloquent-ament-lint
-    script: bld_ament_python.bat
-  - name: ros-eloquent-ament-uncrustify
-    version: 0.8.1
-    requirements:
-      build:
-        - "{{ compiler('cxx') }}"
-        - "{{ compiler('c') }}"
-        - ninja
-        - cmake
-      host:
-        - python {{ python }}
-        - setuptools
-      run:
-        - python {{ python }}
-        - ros-eloquent-uncrustify-vendor
-    script: bld_ament_python.bat
-  - name: ros-eloquent-ament-cmake-export-link-flags
-    version: 0.8.2
-    requirements:
-      build:
-        - "{{ compiler('cxx') }}"
-        - "{{ compiler('c') }}"
-        - ninja
-        - cmake
-      host:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-core
-      run:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-core
-    script: bld_ament_cmake.bat
-  - name: ros-eloquent-ament-cmake-python
-    version: 0.8.2
-    requirements:
-      build:
-        - "{{ compiler('cxx') }}"
-        - "{{ compiler('c') }}"
-        - ninja
-        - cmake
-      host:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-core
-      run:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-core
-    script: bld_ament_cmake.bat
-  - name: ros-eloquent-ament-cmake-version
-    version: 0.8.2
-    requirements:
-      build:
-        - "{{ compiler('cxx') }}"
-        - "{{ compiler('c') }}"
-        - ninja
-        - cmake
-      host:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-core
-      run:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-core
-    script: bld_ament_cmake.bat
-  - name: ros-eloquent-ament-cppcheck
-    version: 0.8.1
-    requirements:
-      build:
-        - "{{ compiler('cxx') }}"
-        - "{{ compiler('c') }}"
-        - ninja
-        - cmake
-      host:
-        - python {{ python }}
-        - setuptools
-      run:
-        - cppcheck
-        - python {{ python }}
-    script: bld_ament_python.bat
-  - name: ros-eloquent-ament-lint-cmake
+  - name: ros-eloquent-ament-cpplint
     version: 0.8.1
     requirements:
       build:
@@ -649,23 +1454,7 @@ outputs:
       run:
         - python {{ python }}
     script: bld_ament_python.bat
-  - name: ros-eloquent-ros-workspace
-    version: 0.8.0
-    requirements:
-      build:
-        - "{{ compiler('cxx') }}"
-        - "{{ compiler('c') }}"
-        - ninja
-        - cmake
-      host:
-        - cmake
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-core
-        - ros-eloquent-ament-package
-      run:
-        - python {{ python }}
-    script: bld_catkin.bat
-  - name: ros-eloquent-ament-cmake-target-dependencies
+  - name: ros-eloquent-rosidl-generator-c
     version: 0.8.2
     requirements:
       build:
@@ -675,70 +1464,20 @@ outputs:
         - cmake
       host:
         - python {{ python }}
-        - ros-eloquent-ament-cmake-core
-        - ros-eloquent-ament-cmake-include-directories
-        - ros-eloquent-ament-cmake-libraries
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-ament-cmake-gtest
+        - ros-eloquent-ament-cmake-ros
+        - ros-eloquent-ament-lint-auto
+        - ros-eloquent-ament-lint-common
+        - ros-eloquent-rosidl-cmake
+        - ros-eloquent-rosidl-typesupport-interface
+        - ros-eloquent-test-interface-files
       run:
         - python {{ python }}
-        - ros-eloquent-ament-cmake-core
-        - ros-eloquent-ament-cmake-include-directories
-        - ros-eloquent-ament-cmake-libraries
-    script: bld_ament_cmake.bat
-  - name: ros-eloquent-ament-lint-auto
-    version: 0.8.1
-    requirements:
-      build:
-        - "{{ compiler('cxx') }}"
-        - "{{ compiler('c') }}"
-        - ninja
-        - cmake
-      host:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-core
-        - ros-eloquent-ament-cmake-test
-      run:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-core
-        - ros-eloquent-ament-cmake-test
-    script: bld_ament_cmake.bat
-  - name: ros-eloquent-ament-cmake-cpplint
-    version: 0.8.1
-    requirements:
-      build:
-        - "{{ compiler('cxx') }}"
-        - "{{ compiler('c') }}"
-        - ninja
-        - cmake
-      host:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-copyright
-        - ros-eloquent-ament-cmake-core
-        - ros-eloquent-ament-cmake-lint-cmake
-        - ros-eloquent-ament-cmake-test
-        - ros-eloquent-ament-cpplint
-      run:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-test
-        - ros-eloquent-ament-cpplint
-    script: bld_ament_cmake.bat
-  - name: ros-eloquent-ament-cmake-copyright
-    version: 0.8.1
-    requirements:
-      build:
-        - "{{ compiler('cxx') }}"
-        - "{{ compiler('c') }}"
-        - ninja
-        - cmake
-      host:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-core
-        - ros-eloquent-ament-cmake-lint-cmake
-        - ros-eloquent-ament-cmake-test
-        - ros-eloquent-ament-copyright
-      run:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-test
-        - ros-eloquent-ament-copyright
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-rosidl-cmake
+        - ros-eloquent-rosidl-parser
+        - ros-eloquent-rosidl-typesupport-interface
     script: bld_ament_cmake.bat
   - name: ros-eloquent-ament-package
     version: 0.8.8
@@ -757,7 +1496,23 @@ outputs:
         - python {{ python }}
         - setuptools
     script: bld_ament_python.bat
-  - name: ros-eloquent-ament-xmllint
+  - name: ros-eloquent-python-cmake-module
+    version: 0.8.0
+    requirements:
+      build:
+        - "{{ compiler('cxx') }}"
+        - "{{ compiler('c') }}"
+        - ninja
+        - cmake
+      host:
+        - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-ament-lint-auto
+        - ros-eloquent-ament-lint-common
+      run:
+        - python {{ python }}
+    script: bld_ament_cmake.bat
+  - name: ros-eloquent-ament-copyright
     version: 0.8.1
     requirements:
       build:
@@ -768,17 +1523,15 @@ outputs:
       host:
         - pytest
         - python {{ python }}
-        - ros-eloquent-ament-copyright
         - ros-eloquent-ament-flake8
         - ros-eloquent-ament-pep257
         - setuptools
       run:
-        - libxml2
         - python {{ python }}
         - ros-eloquent-ament-lint
     script: bld_ament_python.bat
-  - name: ros-eloquent-ament-cmake-export-include-directories
-    version: 0.8.2
+  - name: ros-eloquent-rmw-fastrtps-dynamic-cpp
+    version: 0.8.1
     requirements:
       build:
         - "{{ compiler('cxx') }}"
@@ -786,51 +1539,41 @@ outputs:
         - ninja
         - cmake
       host:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-core
-      run:
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-core
-    script: bld_ament_cmake.bat
-  - name: ros-eloquent-ament-cmake-gtest
-    version: 0.8.2
-    requirements:
-      build:
-        - "{{ compiler('cxx') }}"
-        - "{{ compiler('c') }}"
-        - ninja
-        - cmake
-      host:
-        - gtest
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-core
-        - ros-eloquent-ament-cmake-test
-        - ros-eloquent-gtest-vendor
-      run:
-        - gtest
-        - python {{ python }}
-        - ros-eloquent-ament-cmake-test
-        - ros-eloquent-gtest-vendor
-    script: bld_ament_cmake.bat
-  - name: ros-eloquent-ament-index-cpp
-    version: 0.7.2
-    requirements:
-      build:
-        - "{{ compiler('cxx') }}"
-        - "{{ compiler('c') }}"
-        - ninja
-        - cmake
-      host:
+        - fast-cdr
+        - fast-rtps
         - python {{ python }}
         - ros-eloquent-ament-cmake
-        - ros-eloquent-ament-cmake-gtest
+        - ros-eloquent-ament-cmake-ros
         - ros-eloquent-ament-lint-auto
         - ros-eloquent-ament-lint-common
+        - ros-eloquent-fastrtps-cmake-module
+        - ros-eloquent-rcpputils
+        - ros-eloquent-rcutils
+        - ros-eloquent-rmw
+        - ros-eloquent-rmw-fastrtps-shared-cpp
+        - ros-eloquent-rosidl-generator-c
+        - ros-eloquent-rosidl-typesupport-fastrtps-c
+        - ros-eloquent-rosidl-typesupport-fastrtps-cpp
+        - ros-eloquent-rosidl-typesupport-introspection-c
+        - ros-eloquent-rosidl-typesupport-introspection-cpp
       run:
+        - fast-cdr
+        - fast-rtps
         - python {{ python }}
+        - ros-eloquent-ament-cmake
+        - ros-eloquent-fastrtps-cmake-module
+        - ros-eloquent-rcpputils
+        - ros-eloquent-rcutils
+        - ros-eloquent-rmw
+        - ros-eloquent-rmw-fastrtps-shared-cpp
+        - ros-eloquent-rosidl-generator-c
+        - ros-eloquent-rosidl-typesupport-fastrtps-c
+        - ros-eloquent-rosidl-typesupport-fastrtps-cpp
+        - ros-eloquent-rosidl-typesupport-introspection-c
+        - ros-eloquent-rosidl-typesupport-introspection-cpp
     script: bld_ament_cmake.bat
-  - name: ros-eloquent-ament-cmake-export-dependencies
-    version: 0.8.2
+  - name: ros-eloquent-ament-cmake-lint-cmake
+    version: 0.8.1
     requirements:
       build:
         - "{{ compiler('cxx') }}"
@@ -840,11 +1583,12 @@ outputs:
       host:
         - python {{ python }}
         - ros-eloquent-ament-cmake-core
-        - ros-eloquent-ament-cmake-libraries
+        - ros-eloquent-ament-cmake-test
+        - ros-eloquent-ament-lint-cmake
       run:
         - python {{ python }}
-        - ros-eloquent-ament-cmake-core
-        - ros-eloquent-ament-cmake-libraries
+        - ros-eloquent-ament-cmake-test
+        - ros-eloquent-ament-lint-cmake
     script: bld_ament_cmake.bat
 
 about:
